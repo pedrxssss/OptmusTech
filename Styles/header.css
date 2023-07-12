@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em 5em;
+}
+
+.div__header {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.nav__center {
+    padding-right: 24em;
+    display: flex;
+    gap: 2em;
+}
+
+.botao__header {
+    text-decoration: none;
+    color: var(--cinza-principal);
+    font-weight: 500;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.botao__cadastro {
+    text-decoration: none;
+    background-color: var(--vermelho-destaque);
+    color: var(--bg-color);
+    border-radius: .5em;
+    padding: .9em;
+}
+
+.botao__cadastro:hover {
+    background-color: var(--vermelho-hover);
+}

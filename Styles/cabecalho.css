@@ -1,0 +1,24 @@
+.cabecalho {
+    margin: 6em;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.cabecalho__titulo__secundario {
+    color: var(--vermelho-destaque);
+    font-weight: 600;
+}
+
+.cabecalho__titulo {
+    color: var(--azul-principal);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.cabecalho__texto {
+    color: var(--cinza-principal);
+    font-size: 1.25em;
+    padding: .5em 14em;
+}

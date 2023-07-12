@@ -1,0 +1,57 @@
+.div__vagas__principal {
+    margin-bottom: 0;
+}
+
+.vagas__titulo, .vagas__subtitulo, .vagas__texto {
+    margin-top: -0.25em
+}
+
+.vagas__titulo {
+    font-size: 2.25em;
+}
+
+.vagas__texto {
+    margin-bottom: 2em;
+}
+
+.div__vagas__secundaria {
+    padding: 0 16em;
+    margin: 4em 5em 0 5em;
+}
+
+.lista__vagas {    
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.titulo__vagas {
+    color: var(--azul-principal);
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.div__vagas__info {
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+    padding: 1.5em;
+    border: 1px solid var(--borda)
+}
+
+.texto__vagas {
+    color: var(--azul-principal);
+    font-size: 1.12em;
+    font-weight: 500;
+}
+
+.div__info__vagas {
+    display: flex;
+    gap: 1.5em;
+}
+
+.info__vagas {
+    color: var(--cinza-principal);
+    font-weight: 500;
+}
