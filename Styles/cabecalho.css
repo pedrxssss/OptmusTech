@@ -22,3 +22,19 @@
     font-size: 1.25em;
     padding: .5em 14em;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        gap: 1.2em;
+        margin: 1em 0;
+    }
+
+    .cabecalho__titulo {
+        font-size: 2em;
+    }
+
+    .cabecalho__texto {
+        font-size: 1em;
+        padding: 0 1em;
+    }
+}

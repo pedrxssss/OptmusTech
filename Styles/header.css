@@ -15,6 +15,17 @@
     padding-right: 24em;
     display: flex;
     gap: 2em;
+    align-items: center;
+}
+
+.nav__center__botao:hover {
+    color: var(--rodape-info);
+}
+
+.nav__cadastro {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
 }
 
 .botao__header {
@@ -23,10 +34,8 @@
     font-weight: 500;
 }
 
-.cadastro {
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
+.botao__header:hover {
+    color: var(--rodape-info);
 }
 
 .botao__cadastro {
@@ -39,4 +48,26 @@
 
 .botao__cadastro:hover {
     background-color: var(--vermelho-hover);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 1.5em;
+    }
+
+    .nav__center {
+        display: none;
+    }
+
+    .nav__cadastro {
+        gap: .5em;
+    }
+
+    .botao__header:hover {
+        color: var(--rodape-info);
+    }
+
+    .botao__cadastro {
+        padding: .7em;
+    }
 }

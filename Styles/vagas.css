@@ -33,6 +33,7 @@
 }
 
 .div__vagas__info {
+    background-color: var(--background-vagas);
     display: flex;
     gap: 3em;
     flex-direction: column;
@@ -54,4 +55,35 @@
 .info__vagas {
     color: var(--cinza-principal);
     font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .div__vagas__principal {
+        margin: 2.5em 1em 1em 1em;
+    }
+
+    .vagas__titulo {
+        font-size: 2em;
+    }
+
+    .vagas__texto {
+        margin-bottom: .5em;
+    }
+
+    .div__vagas__secundaria {
+        margin: 1.5em 1em;
+        padding: 0;
+    }
+
+    .titulo__vagas {
+        font-size: 1em;
+    }
+
+    .texto__vagas {
+        font-size: .95em;
+    }
+
+    .info__vagas {
+        font-size: .95em;
+    }
 }

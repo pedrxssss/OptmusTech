@@ -24,7 +24,7 @@
     font-weight: 500;
 }
 
-.metricas_texto {
+.metricas__texto {
     color: var(--cinza-principal);
 }
 
@@ -54,3 +54,21 @@
 .metricas__listas__item__paragrafo {
     color: var(--cinza-principal);
 } */
+
+@media screen and (max-width: 768px) {
+    .metricas {
+        flex-direction: column;
+        text-align: center;
+        margin: 1em 1em;
+        padding: 0;
+    }
+
+    .metricas__div {
+        align-items: center;
+        width: 50%;
+    }
+
+    .metricas__titulo {
+        margin-bottom: .2em;
+    }
+}

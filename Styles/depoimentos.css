@@ -26,3 +26,15 @@
 .depoimentos__texto {
     font-size: .88em;
 }
+
+@media screen and (max-width: 768px) {
+    .depoimentos {
+        margin: 2em 1em;
+        padding: 0;
+        gap: 1em;
+    }
+
+    .depoimentos__titulo {
+        font-size: 1.5em;
+    }
+}
