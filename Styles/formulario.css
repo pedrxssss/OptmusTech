@@ -24,8 +24,10 @@
     width: 25%;
 }
 
-.rodape__email:checked {
-    color: var(--border-grey);
+.rodape__email::placeholder {
+    color: var(--cinza-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
 }
 
 .botao__cadastro:hover {
