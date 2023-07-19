@@ -9,11 +9,17 @@
     font-size: 2.25em;
 }
 
-.rodape__div__formúlario {
+.rodape__div__formulario {
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 1em;
+}
+
+input::placeholder {
+    color: var(--cinza-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
 }
 
 .rodape__email {
@@ -22,12 +28,6 @@
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     padding: .75em .88em .75em 1em;
     width: 25%;
-}
-
-.rodape__email::placeholder {
-    color: var(--cinza-principal);
-    font-family: var(--fonte-principal);
-    font-weight: 400;
 }
 
 .botao__cadastro:hover {
