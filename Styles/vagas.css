@@ -33,12 +33,16 @@
 }
 
 .div__vagas__info {
-    background-color: var(--background-vagas);
+    background-color: rgba(233, 235, 241, 0.779);
     display: flex;
     gap: 3em;
     flex-direction: column;
     padding: 1.5em;
     border: 1px solid var(--borda)
+}
+
+.div__vagas__info:hover{
+    background-color: var(--background-vagas);
 }
 
 .texto__vagas {
