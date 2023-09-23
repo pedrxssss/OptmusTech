@@ -1,0 +1,54 @@
+@import '../base/variaveis';
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 4rem;
+    margin-bottom: 6rem;
+    font-family: $fonte;
+
+    h3 {
+        color: $vermelho;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h2 {
+        font-size: calc($tamanho-fonte * 2);
+        font-weight: 500;
+        line-height: 44px;
+        color: $azul-principal;
+        width: 70%;
+        margin: 1rem 0;
+
+
+        //Media Query Mobile: Enquadramento do h2.
+        @media screen and (max-width: 768px) {
+            width: 90%;
+        }
+    }
+    
+    img {
+        height: 56px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .name {
+        font-size: $tamanho-fonte;
+        font-weight: 500;
+        line-height: 1.5rem;
+        color: $azul-principal;
+        margin-bottom: 4px;
+    }
+    
+    p {
+        color: $cinza-principal;
+        font-size: .87rem;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}

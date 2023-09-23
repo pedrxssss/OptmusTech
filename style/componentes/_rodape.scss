@@ -1,0 +1,87 @@
+    @import '../base/variaveis';
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 1.25rem;
+        font-family: $fonte;
+        margin: 6rem 0;
+
+        h2 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            line-height: 44px;
+            color: $azul-principal;
+
+            //Media Query Mobile: Enquadramento do h2
+            @media screen and (max-width: 768px) {
+                width: 90%;
+            }
+        }
+        
+        p {
+            color: $cinza-principal;
+            font-weight: 400;
+            font-size: 1.25rem;
+            
+            //Media Query Mobile: Enquadramento do p
+            @media screen and (max-width: 768px) {
+                width: 90%;
+            }
+        }
+        
+        .paragrafo-rodape {
+            font-size: 1rem;
+            color: #98A2B3;
+        }
+        
+        div {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            
+            input {
+                border: 1px solid #D0D5DD;
+                background: white;
+                border-radius: 8px;
+                box-shadow: none;
+                padding: 12px 16px;
+                width: 330px;
+                
+                &:placeholder {
+                    font-family: $fonte;
+                    font-weight: 400;
+                    color: $cinza-principal;
+                    
+                }
+                
+                //Media Query Mobile: Enquadramento do input
+                @media screen and (max-width: 768px) {
+                    width: 90%;
+                }
+            }
+            
+            label {
+                a {
+                    padding: .75rem;
+                    text-decoration: none;
+                    color: $bg-color;
+                    background-color: $vermelho;
+                    border-radius: .5rem;
+
+                    &:hover {
+                        background-color: $vermelho-hover;
+                        color: $bg-color;
+                    }
+                    
+                    //Media Query Mobile: Enquadramento do label
+                    @media screen and (max-width: 768px) {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
