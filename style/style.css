@@ -347,13 +347,13 @@
   font-size: 1rem;
   color: #98A2B3;
 }
-.rodape div {
+.rodape form {
   display: flex;
   gap: 1rem;
   align-items: center;
   margin-bottom: 2rem;
 }
-.rodape div input {
+.rodape form input {
   border: 1px solid #D0D5DD;
   background: white;
   border-radius: 8px;
@@ -361,29 +361,29 @@
   padding: 12px 16px;
   width: 330px;
 }
-.rodape div input:placeholder {
+.rodape form input:placeholder {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #667085;
 }
 @media screen and (max-width: 768px) {
-  .rodape div input {
+  .rodape form input {
     width: 90%;
   }
 }
-.rodape div label a {
+.rodape form label a {
   padding: 0.75rem;
   text-decoration: none;
   color: #ffffff;
   background-color: #8e2424;
   border-radius: 0.5rem;
 }
-.rodape div label a:hover {
+.rodape form label a:hover {
   background-color: #7a0c0c;
   color: #ffffff;
 }
 @media screen and (max-width: 768px) {
-  .rodape div label a {
+  .rodape form label a {
     width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
